@@ -12,6 +12,14 @@ yarn dev
 pnpm dev
 # or
 bun dev
+# selenium install
+npm install selenium-webdriver chromedriver
+# run test 
+node login.test.js
+# puppeteer install
+npm install puppeteer
+# run test
+node login.testpup.js
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
