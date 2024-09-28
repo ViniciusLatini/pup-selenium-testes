@@ -39,7 +39,7 @@ const puppeteer = require('puppeteer');
   await page.click('button[type="submit"]');
 
   // Esperar pelo alerta de sucesso de login
-  await new Promise(resolve => setTimeout(resolve, 1000)); // Aguarda 1 segundo
+  await new Promise(resolve => setTimeout(resolve, 500)); // Aguarda 1 segundo
 
 
   // Recarregar a página para o segundo teste
@@ -52,7 +52,7 @@ const puppeteer = require('puppeteer');
   await page.click('button[type="submit"]');
 
   // Esperar pelo alerta de erro de login
-  await new Promise(resolve => setTimeout(resolve, 1000)); // Aguarda 1 segundo
+  await new Promise(resolve => setTimeout(resolve, 500)); // Aguarda 1 segundo
 
 
   // Fim do teste total
