@@ -10,6 +10,8 @@
     "test": "jest"
   },
   "dependencies": {
+    "@headlessui/react": "^2.1.8",
+    "@heroicons/react": "^2.1.5",
     "chromedriver": "^129.0.1",
     "next": "14.2.13",
     "puppeteer": "^23.4.1",
